@@ -1,5 +1,6 @@
 
 # Ignore all files in the node_modules directory
-node_modules/
-
+node_modules
+.env
+some.txt
 
