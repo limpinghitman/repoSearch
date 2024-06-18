@@ -1,0 +1,74 @@
+.chat {
+  padding: 10px;
+  width: 800px;
+  margin: 0 auto;
+  color: #fff;
+  padding-bottom: 80px; /* Add bottom padding to ensure it's not obscured by the search bar */
+  display: flex;
+  flex-direction: column;
+}
+
+.chat-message {
+  margin-bottom: 10px;
+  padding: 10px;
+  border-radius: 5px;
+  word-wrap: break-word;
+}
+
+.chat-message.left {
+  align-self: flex-start;
+  width: 100%; /* Make assistant messages take full width */
+  /* background-color: #3c3c3c; Ensure the background color is consistent */
+  margin-bottom : 20px;
+
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+  border-bottom-left-radius: 0;
+}
+
+.chat-message.right {
+  align-self: flex-end;
+  max-width: 70%; /* Keep the user's messages limited in width */
+  margin-right: 10px;
+  margin-bottom : 20px;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 5px;
+  /* background-color: ; Different color for the user's messages */
+}
+
+.chat-sender {
+  /* font-weight: bold; */
+  margin-bottom: 5px;
+  font-size:20px;
+}
+
+.chat-sender.you {
+  color: #1EA1FF; /* Color for 'You' */
+}
+
+.chat-sender.assistant {
+  color: #FFFFFF; /* Color for 'Assistant' */
+}
+
+.chat-text {
+  margin-left: 10px;
+}
+
+.chat-text.assistant {
+  white-space: pre-wrap;
+}
+
+code {
+  display: block;
+  padding: 10px;
+  margin: 10px 0;
+  background-color: #1e1e1e;
+  border-radius: 5px;
+}
+
+pre {
+  margin: 0;
+}
