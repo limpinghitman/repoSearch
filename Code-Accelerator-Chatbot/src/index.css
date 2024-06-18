@@ -1,0 +1,25 @@
+/* index.css */
+body, #root {
+  margin: 0;
+  padding: 0;
+  background-color: #0C0C0C;
+  color: white;
+  /* min-height: 100vh; Use min-height instead of height */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* overflow-y: auto; Enable vertical scrolling when needed */
+}
+
+html {
+  margin: 0;
+  padding: 0;
+  height: 100%; /* Ensure HTML takes full height */
+}
+
+/* Resetting any padding/margin and box-sizing */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}

@@ -1,0 +1,26 @@
+.clickable-texts {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; /* Center align horizontally */
+    gap: 10px; /* Space between each text */
+    padding: 20px;
+    max-width: 800px; /* Set a maximum width for the container */
+    margin: 0 auto; /* Center the container within its parent */
+  }
+  
+  .clickable-texts span {
+    display: inline-block;
+    padding: 10px 20px; /* Adjust padding as needed */
+    border-radius: 20px; /* This makes the border cylindrical */
+    border: 2px solid #83D9FF99; /* Adjust border color and thickness as needed */
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    width: fit-content; /* Ensures the border adjusts to the text length */
+    color: #83D9FF99;
+  }
+  
+  .clickable-texts span:hover {
+    background-color: #83D9FF99; /* Adjust hover background color as needed */
+    color: #000;
+  }
+  

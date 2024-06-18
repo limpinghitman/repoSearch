@@ -1,0 +1,70 @@
+/* App.css */
+body, html, #root {
+  height: 100%;
+  margin: 0;
+}
+
+#root {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.app-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 100%;
+  height: 100%;
+}
+
+.app {
+  text-align: center;
+  background-color: #0C0C0C;
+  color: white;
+  padding: 20px;
+  max-width: 800px;
+  width: 100%;
+  position: relative; /* Enable absolute positioning within .app */
+  padding-bottom: 80px; /* Add bottom padding to accommodate the search bar */
+}
+
+.app-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+}
+
+.config-btn {
+  background: none;
+  border: none;
+  color: white;
+  font-size: 18px;
+  cursor: pointer;
+}
+
+h1 {
+  font-size: 2.5rem;
+}
+
+button {
+  background-color: #444;
+  border: none;
+  color: white;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.open-sidebar-btn {
+  position: fixed; /* Change to fixed position */
+  top: 10px; /* Adjust the top offset as needed */
+  right: 10px; /* Adjust the right offset as needed */
+  background-color: #444;
+  border: none;
+  color: white;
+  padding: 10px;
+  cursor: pointer;
+  z-index: 1000; /* Ensure the button is on top of other elements */
+}
+
