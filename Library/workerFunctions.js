@@ -14,7 +14,7 @@ import { Console } from 'console';
 dotenv.config();
 
 const openai = new OpenAI({
-  apiKey: "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" 
+  // apiKey: enter API KEY 
 });
 
 // const knowledgeBaseFilePath = './File read/meloverse'; // Adjust this path according to your file location
